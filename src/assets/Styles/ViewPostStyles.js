@@ -1,0 +1,141 @@
+import { StyleSheet } from 'react-native';
+import ThemeColors from '../../assets/theme/ThemeColors';
+export const styles = StyleSheet.create({
+  screenContainer: {
+    flex: 1,
+  },
+  imageContainer: {
+    height: '35%',
+    width: '100%',
+  },
+  image: {
+    height: '100%',
+    width: '100%',
+    resizeMode: 'cover',
+  },
+  categoryContainer: {
+    position: 'absolute',
+    alignItems: 'center',
+    width: 140,
+    bottom: -40,
+    right: 0,
+    paddingTop: 5,
+    paddingBottom: 65,
+    borderTopLeftRadius: 20,
+  },
+  category: {
+    fontSize: 16,
+    fontWeight: '500',
+    color: ThemeColors.White,
+  },
+  detailsContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    marginTop: -20,
+    borderTopRightRadius: 60,
+    backgroundColor: ThemeColors.White,
+    overflow: 'hidden',
+  },
+  titleContainer: {
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    paddingVertical: 15,
+    paddingHorizontal: 10,
+    paddingEnd: 50,
+    borderBottomWidth: 1,
+    borderBottomColor: ThemeColors.White_Smoke,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: '500',
+  },
+  priceConditionAndCampusContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 10,
+    paddingHorizontal: 5,
+    borderBottomWidth: 7.5,
+    borderColor: ThemeColors.White_Smoke,
+  },
+  priceContainer: {
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+  },
+  price: {
+    fontSize: 20,
+    fontWeight: '700',
+    paddingHorizontal: 10,
+  },
+  conditionAndCampusOutterContainer: {
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+  },
+  conditionAndCampusInnerContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginVertical: 3,
+  },
+  conditionAndCampusLabel: {
+    fontSize: 16,
+    fontWeight: '500',
+  },
+  conditionAndCampusText: {
+    fontSize: 16,
+  },
+  descriptionContainer: {
+    justifyContent: 'center',
+    alignItems: 'Center',
+    borderBottomWidth: 7.5,
+    borderColor: ThemeColors.White_Smoke,
+  },
+  descriptionTitle: {
+    fontSize: 18,
+    fontWeight: '500',
+    textAlign: 'center',
+    paddingVertical: 15,
+    borderBottomWidth: 1,
+    borderColor: ThemeColors.White_Smoke,
+    marginBottom: 5,
+  },
+  description: {
+    fontSize: 15,
+    textAlign: 'justify',
+    paddingVertical: 15,
+    paddingHorizontal: 10,
+  },
+  contactInformationContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    padding: 7.5,
+    marginHorizontal: 10,
+    marginVertical: 15,
+    borderRadius: 15,
+    backgroundColor: ThemeColors.Primary,
+  },
+  sellerImageContainer: {
+    height: 70,
+    width: 70,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 35,
+    borderWidth: 1,
+    borderColor: ThemeColors.White,
+    overflow: 'hidden',
+  },
+  sellerImage: {
+    height: '100%',
+    width: '100%',
+    resizeMode: 'cover',
+  },
+  sellerName: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: ThemeColors.White,
+  },
+  sellerInfo: {
+    color: ThemeColors.White,
+  },
+});

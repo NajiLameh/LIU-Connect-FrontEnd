@@ -1,0 +1,15 @@
+export default ThemeColors = {
+  Primary: '#020403',
+  Secondary: '#8B8B8B',
+  GoogleRed: '#DB4437',
+  GoogleBlue: '#4285F4',
+  GoogleGreen: '#0F9D58',
+  GoogleYellow: '#F4B400',
+  FaceBookBlue: '#1877F2',
+  Purple_Veronica: '#A020F0',
+  Grey_Light: '#d3d3d3',
+  Grey_Davy: '#555555',
+  Grey_Dark: '#AAAAAA',
+  White: '#FFFFFF',
+  White_Smoke: '#F5F5F5',
+};
