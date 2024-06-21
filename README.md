@@ -1,4 +1,4 @@
-# LIU Connect
+# LIU Connect FrontEnd Code
 
 LIU Connect is a mobile app developed using React Native and the Expo workflow. It is designed exclusively for LIU students, providing a comprehensive platform for managing clubs and events, a sharing center, and an internship section.
 
