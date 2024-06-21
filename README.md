@@ -5,7 +5,7 @@ LIU Connect is a mobile app developed using React Native and the Expo workflow. 
 ## Features
 
 - **Club and Events Management System**: Manage and organize clubs and events efficiently.
-- **Sharing Center**: A dedicated space for students to share resources and information.
+- **Sharing Center**: A dedicated space for students to share resources seamlessly.
 - **Internship Section**: Offers a platform for students to find internships.
 
 ## Admin Sections
